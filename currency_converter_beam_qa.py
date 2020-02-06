@@ -40,11 +40,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     """
-    '--project=qa-setup ' \
+    '--project=<PROJECT_NAME> ' \
     '--save-intermediate-result=True ' \
     '--job_name=currency-converter-example ' \
-    '--staging_location=gs://harness_supervised_logs_qa/staging ' \
-    '--temp_location=gs://harness_supervised_logs_qa/temp ' \
+    '--staging_location=gs://<BUCKET>/staging ' \
+    '--temp_location=gs://<BUCKET>/temp ' \
     '--runner=DataflowRunner'
     """
 
